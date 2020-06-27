@@ -66,6 +66,6 @@ Cypress.Commands.add('clickElement', (ele) => {
 })
 
 Cypress.Commands.add('setElement', (ele, value) => {
-    cy.get(ele,{timeout:60000}).type(value);
+    cy.get(ele,{timeout:60000}).type(value,{log: false});
 })
 
