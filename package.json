@@ -1,0 +1,18 @@
+{
+  "name": "sarathkumar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "mochawesome": "^6.1.1"
+  },
+  "devDependencies": {
+    "cypress": "^4.9.0",
+    "cypress-wait-until": "^1.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
